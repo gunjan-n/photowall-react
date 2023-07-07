@@ -1,3 +1,27 @@
+# PhotoWall
+
+PhotoWall is a React application that allows users to create a photo wall by adding photos and leaving comments on each photo.
+
+## Features
+
+- View a collection of photos in a grid layout
+- Add new photos with descriptions
+- Remove photos from the collection
+- View and add comments on individual photos
+
+## Technologies Used
+
+- React
+- Redux
+- React Router
+- HTML
+- CSS
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
