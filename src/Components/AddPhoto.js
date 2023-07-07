@@ -25,7 +25,7 @@ class AddPhoto extends Component{
 
     navigateToHome = () => {
         const { navigate } = this.props;
-        navigate('/');
+        navigate('/photowall-react');
       }
 
     render(){
