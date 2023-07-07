@@ -8,7 +8,7 @@ class Photo extends Component {
         const index = this.props.index;
         // console.log(this.props.index)
         return <figure className="figure">
-            <Link to={`single/${post.id}`}>
+            <Link to={`/photowall-react/single/${post.id}`}>
                 <div className="image-wrapper">
                     <img className="photo" src={post.imageLink} alt={post.description}  />
                 </div>
