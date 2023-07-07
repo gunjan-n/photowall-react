@@ -16,11 +16,11 @@ class Main extends Component {
       
       return  <div> 
                     <h1>
-                        <Link to="/"> PhotoWall </Link>
+                        <Link to="/photowall-react"> PhotoWall </Link>
                     </h1>
 
                     <Routes>
-                      <Route path="/" element={
+                      <Route path="/photowall-react" element={
                         <div>
                           <PhotoWall {...this.props} posts={this.props.posts} removePost={this.props.removePost} navigate={this.props.navigate} />
                         </div> 
