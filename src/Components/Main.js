@@ -28,7 +28,7 @@ class Main extends Component {
                       
                       <Route exact path="/AddPhoto" element={ <AddPhoto addPost={this.props.addPost} navigate={this.props.navigate} /> }/> 
 
-                      <Route exact path="/single/:id" element={ <Single {...this.props} params={this.props.params} match={this.props.match} /> } />
+                      <Route path="/single/:id" element={ <Single {...this.props} params={this.props.params} match={this.props.match} /> } />
                     </Routes>            
               </div> 
     }
