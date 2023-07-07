@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/photowall-react/static/css/main.941da06a.css",
-    "main.js": "/photowall-react/static/js/main.a87b63ad.js",
+    "main.js": "/photowall-react/static/js/main.215d2f96.js",
     "static/media/add-icon.png": "/photowall-react/static/media/add-icon.270808c84c99c2af21cb.png",
     "static/media/speech-bubble.png": "/photowall-react/static/media/speech-bubble.a7384ecae7d2b36a6d50.png",
     "index.html": "/photowall-react/index.html",
     "main.941da06a.css.map": "/photowall-react/static/css/main.941da06a.css.map",
-    "main.a87b63ad.js.map": "/photowall-react/static/js/main.a87b63ad.js.map"
+    "main.215d2f96.js.map": "/photowall-react/static/js/main.215d2f96.js.map"
   },
   "entrypoints": [
     "static/css/main.941da06a.css",
-    "static/js/main.a87b63ad.js"
+    "static/js/main.215d2f96.js"
   ]
 }
