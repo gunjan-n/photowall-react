@@ -19,7 +19,7 @@ class Photo extends Component {
                     this.props.removePost(index)
                     this.props.navigate('/')
                 }} > Remove </button>
-                <Link className="button" to={`single/${post.id}`}>
+                <Link className="button" to={`/photowall-react/single/${post.id}`}>
                     <div className="comment-count">
                         <div className="speech-bubble"></div>
                         {this.props.comments[post.id] ? this.props.comments[post.id].length : 0}
