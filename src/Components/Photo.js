@@ -17,7 +17,7 @@ class Photo extends Component {
             <div className="button-container">
                 <button onClick={() =>{
                     this.props.removePost(index)
-                    this.props.navigate('/')
+                    this.props.navigate('/photowall-react')
                 }} > Remove </button>
                 <Link className="button" to={`/photowall-react/single/${post.id}`}>
                     <div className="comment-count">
